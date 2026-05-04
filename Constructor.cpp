@@ -11,3 +11,9 @@ mahasiswa::mahasiswa()
 {
     cout << "Constructor dipanggil" << endl;
 };
+
+int main()
+{
+    mahasiswa mhs;
+    return 0;
+}
