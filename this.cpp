@@ -12,3 +12,10 @@ public:
         return this->judul;
     }
 };
+
+int main()
+{
+    buku bukunya;
+    cout << bukunya.setget("matematika");
+    return;
+}
