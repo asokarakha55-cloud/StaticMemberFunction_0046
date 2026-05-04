@@ -15,3 +15,7 @@ public:
     mahasiswa(int iNIM, string iNama);
     void cetak();
 };
+
+mahasiswa::mahasiswa()
+{
+}
