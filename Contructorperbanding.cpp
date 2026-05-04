@@ -24,3 +24,8 @@ mahasiswa ::mahasiswa(int iNIM, string iNama)
 {
     nim = iNIM;
 }
+
+mahasiswa::mahasiswa(string iNAMA)
+{
+    nama = iNAMA;
+}
