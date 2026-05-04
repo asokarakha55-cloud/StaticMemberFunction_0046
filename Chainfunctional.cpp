@@ -11,11 +11,15 @@ public:
         this->judul = judul;
         return *this; // chain functional
     }
+    string getJudul()
+    {
+        return judul;
+    }
 };
 
 int main()
 {
     buku bukunya;
-    bukunya.setjudul("matematika").getjudul();
+    bukunya.setjudul("matematika").getJudul();
     return 0;
 }
