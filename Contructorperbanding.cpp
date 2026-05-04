@@ -19,3 +19,8 @@ public:
 mahasiswa::mahasiswa()
 {
 }
+
+mahasiswa ::mahasiswa(int iNIM, string iNama)
+{
+    nim = iNIM;
+}
