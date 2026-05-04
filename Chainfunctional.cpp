@@ -12,3 +12,10 @@ public:
         return *this; // chain functional
     }
 };
+
+int main()
+{
+    buku bukunya;
+    bukunya.setjudul("matematika").getjudul();
+    return 0;
+}
